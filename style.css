@@ -3,7 +3,7 @@
   padding: 0;
 }
 
-nav ul {
+header nav ul {
   list-style-type: none;
   display: flex;
   margin-left: 60%;
@@ -12,7 +12,6 @@ nav ul {
 nav ul li a {
   text-decoration: none;
   padding-left: 0.5rem;
-  
 }
 
 section {
@@ -22,14 +21,14 @@ section {
   display: flex;
   padding: 1rem;
 }
-.karte {
+article.karte {
   border-radius: 10px;
   border: 1px solid;
   padding: 0.5rem;
   margin: 2rem;
   text-align: center;
 }
-.footer {
+footer {
   height: 10rem;
   border-top: 0.125rem solid;
   color: rgb(180, 60, 13);
@@ -39,10 +38,15 @@ section {
   align-items: center;
   gap: 1rem;
 }
-.footer a {
+footer ul {
+  display: flex;
+  list-style-type: none;
+  gap: 1rem;
+}
+footer a {
   text-decoration: none;
   color: rgb(94, 29, 29);
 }
-.footer img {
+footer img {
   border-radius: 50%;
 }
